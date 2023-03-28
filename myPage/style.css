@@ -1,0 +1,39 @@
+.all{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width : 900px;
+}
+
+.title{
+    display: flex;
+}
+
+#titleText{
+    position: relative;
+    font-size: 40px;
+    left: 10px;
+    bottom: 10px;
+}
+
+.divide{
+    position: relative;
+    bottom: 25px;
+}
+
+.mainText{
+    position: relative;
+    right: 60px;
+}
+
+.mainText h3{
+    font-size: 20px;
+}
+
+.mainText h2{
+    position: relative;
+    left: 130px;
+    font-size: 35px;
+}
