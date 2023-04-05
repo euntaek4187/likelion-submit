@@ -1,0 +1,62 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width : 900px;
+}
+
+.title{
+    display: flex;
+
+}
+
+#titleText{
+    position: relative;
+    font-size: 40px;
+    left: 10px;
+    bottom: 10px;
+}
+
+.divide{
+    position: relative;
+    bottom: 25px;
+}
+
+.mainText{
+    position: relative;
+    right: 20px;
+}
+
+.mainText h3{
+    font-size: 20px;
+}
+
+
+section {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(66.66% - 20px);
+  }
+
+aside {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+  }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
