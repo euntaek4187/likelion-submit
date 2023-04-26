@@ -1,0 +1,139 @@
+body{
+    background-color: #3a4ca8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 900px;
+}
+
+#opc {
+    position: relative;
+    bottom: 225px;
+    z-index: 1;
+}
+
+#titleColock{
+    position: relative;
+    left: 160px;
+}
+main{
+    position: relative;
+    bottom: 150px;
+}
+main h1{
+    color: #d2d439;
+}
+#s1-img1{
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+section h3{
+    color: aliceblue;
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+}
+#s1-h3{
+    position: relative;
+    left: 285px;
+    top: -45px;
+}
+aside div{
+    display: flex;
+}
+aside h3{
+    color: aliceblue;
+}
+aside div input{
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#a1-div1{
+    position: relative;
+    left: 160px;
+}
+#a1-div2{
+    position: relative;
+    left: 60px;
+}
+footer div{
+    display: flex;
+}
+#f-btn-div{
+    
+    height: 50px;
+    border-radius: 20px;
+    background-color: #d2d439;
+    color:#052fff;
+}
+#f-btn-div1{
+    
+    height: 50px;
+    border-radius: 20px;
+    background-color: #d2d439;
+    color:#052fff;
+}
+#f-btn-div2{
+    height: 50px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color:#021da5;
+}
+#f-btn-div3{
+    height: 50px;
+    border-radius: 20px;
+    background-color: #d2d439;
+    color:#052fff;
+}
+#f-btn-div h3{
+    padding: 0px 10px 0px 10px;
+}
+#f-btn-div1 h3{
+    padding: 0px 10px 0px 10px;
+}
+#f-btn-div3 h3{
+    padding: 0px 10px 0px 10px;
+}
+
+footer{
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+}
+#addText div{
+    display: flex;
+}
+
+.last-btn div{
+    margin: 10px;
+}
+#last-btn div{
+    margin: 10px;
+}
+#addText div h1,p{
+    color: aliceblue;
+}
+#addText div h1{
+    position: relative;
+    bottom: 17px;
+}
+
+#last-btn{
+    position: relative;
+    bottom: 650px;
+    z-index: 100;
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
