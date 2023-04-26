@@ -32,7 +32,7 @@ clip = () =>{
 btn1.addEventListener("click", howIStudy);
 newPage.addEventListener("click", showfightingPage);
 link.addEventListener("click", () => {
-    const linkToCopy = "https://naver.com";
+    const linkToCopy = "https://euntaek4187.github.io/likelion-submit/10000hour/";
     const textArea = document.createElement("textarea");
     textArea.value = linkToCopy;
     document.body.appendChild(textArea);
