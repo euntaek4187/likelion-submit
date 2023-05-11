@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1/0">
+        <title>Blog</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    </head>
+    <body class="all">
+        <header>
+            <h1>euntaek's blog</h1>
+            <img width="600px" src="{% static 'image/croco.png' %}">
+        </header>
+        <main>
+            <div class="newPostBTN">
+            <a href="{% url 'new' %}" class="new-post">새 글 쓰기</a>
+            </div>
+            <div class="blog-posts">
+                {% for blog in blogs %}
+                <div class="blog-post">
+                    <h2>{{ blog.title }}</h2>
+                    <div class="closeUp">
+                    <a href="{% url 'detail' blog.id %}">게시글 보기</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </main>
+        
+    </body>
+</html>

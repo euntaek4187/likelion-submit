@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ...
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/new.css' %}">
+</head>
+<body>
+    <header>
+        <h1>euntaek's blog</h1>
+        <img width="600px" src="{% static 'image/croco.png' %}">
+    </header>
+    <main>
+    <form action="{% url 'update' blog.id %}" method="POST">
+        {% csrf_token %}
+        <label for="title">제목</label>
+        <input type="text" name="title" id="title" value="{{blog.title}}">
+        <br>
+        <label for="writer">작성자</label>
+        <input type="text" name="writer" id="writer" value="{{blog.writer}}">
+        <br>
+        <label for="body">내용</label>
+        <textarea name="body" id="body" cols="90" rows="20">{{blog.body}}</textarea>
+        <button type="submit">제출</button>
+    </form>
+</main>
+</body>
+</html>
